@@ -1,0 +1,35 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "crud app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltonsilvamtm/crud_app.git"
+  },
+  "keywords": [
+    "crud",
+    "mongodb"
+  ],
+  "author": "elton da silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eltonsilvamtm/crud_app/issues"
+  },
+  "homepage": "https://github.com/eltonsilvamtm/crud_app#readme",
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
